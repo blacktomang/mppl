@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alice|Permanent+Marker&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+
+.offset::before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+
+/* -----------------navigation---------------- */
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgb(17, 17, 17) !important;
+}
+
+.navbar-brand {
+  height: 3rem;
+}
+
+/*----------------- whatsapp------------------- */
+.Whatsapp svg.svg-inline--fa {
+  color: #25d366;
+  position: absolute;
+  top: 24%;
+  right: 10.5%;
+}
+
+.Whatsapp p {
+  color: white;
+  position: absolute;
+  top: 33%;
+  right: 1%;
+}
+
+/*------------------- mid nav bar---------------------*/
+.navbar-nav {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar-nav .icon {
+  display: none;
+}
+
+/*------------------- start Logo Tforces----------------------- */
+.navbar-brand,
+span {
+  font-family: 'Permanent Marker';
+  font-size: 30px;
+  padding-top: .1rem;
+}
+
+/*----------------- end Logo Tforces------------------- */
+
+.navbar-nav li {
+  padding-right: 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: orange;
+}
+
+/* -------------------------------landing page--------------------------------- */
+.home-inner {
+  background-image: url(newimage/bck1.jpg);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 65%;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  text-transform: uppercase;
+}
+
+.caption h3 {
+  font-style: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+  text-transform: uppercase;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 2;
+  padding: .6rem 1.3rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.btn-lg:hover {
+  background-color: rgba(255, 166, 0);
+  color: white;
+}
+
+/*------------------------ end landing page------------------------*/
+
+
+
+/*------------------------------ start armada section--------------------------------*/
+.jumbotron {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+  background-color: white;
+}
+
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.heading-underline {
+  width: 4rem;
+  height: .1rem;
+  background-color: orange;
+  margin: 0 auto 2rem;
+}
+
+.armada h2,
+h4 {
+  font-weight: bold;
+}
+
+.armada img {
+  width: 100%;
+}
+
+.armada-hr {
+  border-top: .15rem solid black;
+}
+
+/*-------------------- start driver section ---------------------------------*/
+.fixed {
+  background-image: url(newimage/3.jpg);
+  z-index: -1;
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 3rem 2rem;
+}
+
+.fixed-background h3 {
+  margin-top: 2rem;
+}
+
+.fixed-background p {
+  margin-top: 1.5rem;
+}
+
+.drivers img {
+  width: 70%;
+  border-radius: 40%;
+}
+
+/*--------------------about section---------------------------------*/
+
+.about img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+
+blockquote .svg-inline--fa {
+  color: orange;
+  margin: .5rem;
+}
+
+.about-hr {
+  border-top: .05rem solid orange;
+}
+
+/*--------------------contact section---------------------------------*/
+
+footer {
+  background-color: rgb(235, 235, 235);
+  color: black;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+
+footer a {
+  color: black;
+
+}
+
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+  color: orange;
+}
+
+hr.socket {
+  width: 100%;
+  border-top: .2rem solid orange;
+  margin-top: 3rem;
+}
+
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
