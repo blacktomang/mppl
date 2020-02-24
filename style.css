@@ -31,18 +31,19 @@ body {
 }
 
 /*----------------- whatsapp------------------- */
+
 .Whatsapp svg.svg-inline--fa {
   color: #25d366;
   position: absolute;
   top: 24%;
-  right: 10.5%;
+  right: 11.5%;
 }
 
 .Whatsapp p {
   color: white;
   position: absolute;
   top: 33%;
-  right: 1%;
+  left: 89%;
 }
 
 /*------------------- mid nav bar---------------------*/
