@@ -153,6 +153,11 @@ h3.heading {
 h4 {
   font-weight: bold;
 }
+.armada > .row{
+  border-radius: 20px;
+  background-color: orange;
+  margin: auto;
+}
 
 .armada img {
   width: 100%;
