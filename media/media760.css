@@ -1,0 +1,22 @@
+@media only screen and (min-width : 768px) and (orientation : portrait) {
+
+    /*-----------------------NAVIGATION-------------------------------*/
+    .navbar-brand span {
+        font-size: 1.7rem;
+        position: relative;
+        bottom: center;
+        left: -9px;
+    }
+
+    .Whatsapp svg.svg-inline--fa {
+        top: .5rem;
+        width: 16px;
+        right: 17.5%;
+    }
+
+    .Whatsapp p {
+        right: 4%;
+        top: 1.8rem;
+        font-size: .8rem;
+    }
+}
